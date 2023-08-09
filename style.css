@@ -1,0 +1,40 @@
+.container-fluid{
+    /* display:grid; */
+    background-color: rgb(90, 105, 100);
+    height: 45px;
+    
+}
+
+
+
+.navbar-nav{
+    
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    cursor: pointer;
+    gap: 30px;
+}
+.navbar-nav :hover{
+    color: rgb(17, 16, 16)97, 80, 80;
+}
+.nav-item{
+    color: rgb(20, 226, 226);
+}
+.nav-item :hover{
+    color: antiquewhite;
+}
+
+button{
+    background: rgb(199, 191, 207);
+}
+.btn-link{
+    display: flex;
+    text-decoration: none;
+    padding-left: 25px ;
+padding-right: 25px;
+border: 2px solid rgb(189, 126, 10);
+}
+.btn-item{
+    display: grid;
+    justify-content: space-between;
+}
